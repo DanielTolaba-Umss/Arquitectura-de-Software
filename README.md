@@ -56,6 +56,11 @@ git clone https://github.com/DanielTolaba-Umss/Arquitectura-de-Software.git
 ### Facade
 - El patrón Facade se aplica en la clase `TaskFacade`, que proporciona una interfaz simplificada para acceder a las funcionalidades de gestión de tareas.
 
+### Observer
+- El patrón Observer se emplea en la clase `TaskServiceImpl` para permitir que objetos interesados (observadores) sean notificados cuando se agregan nuevas tareas.
+- La interfaz `TaskObserver` define el método `onTaskAdded`, que se implementa en la clase `LoggingTaskObserver` para registrar la adición de tareas en el registro.
+
+
 ## Arquitectura de Tres Capas
 
 El proyecto sigue una arquitectura de tres capas, que consiste en:
