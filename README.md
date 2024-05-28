@@ -6,8 +6,9 @@
 ## Configuración del Proyecto
 
 ### Requisitos Previos
-- Instalar Java Development Kit (JDK) versión 8 o superior.
-- Descargar e instalar Intellij IDEA o cualquier otro IDE compatible con Java.
+- Instalar Dart SDK.
+- Descargar e instalar un editor de texto compatible con Dart, como Visual Studio Code o IntelliJ IDEA con el plugin de Dart.
+
 
 ### Clonar el Repositorio
 git clone https://github.com/DanielTolaba-Umss/Arquitectura-de-Software.git
